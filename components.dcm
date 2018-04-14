@@ -10,4 +10,14 @@ D Octal BUS Transceivers, 3 State out
 K TTL BUS 3State
 $ENDCMP
 #
+$CMP Jumper_NC_Dual
+D Dual Jumper, normally closed
+K jumper bridge link nc
+$ENDCMP
+#
+$CMP jumper_nc_no_dual
+D Dual Jumper, normally closed
+K jumper bridge link nc
+$ENDCMP
+#
 #End Doc Library
